@@ -1,0 +1,34 @@
+#container 
+ {height: 310px;
+     width: 60%;
+     background-color: rgb(5, 159, 66);
+     display: flex;
+     align-items: center;
+     flex-direction: column; 
+ }
+
+ *{margin: 0.5px;
+    padding: 0.5pc;
+    box-sizing:border box;
+    list-style-type: none; 
+ }
+
+ body {
+    align-items: center;
+    justify-content: center;     
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/cocoa\ pod.jpg")
+}
+dropdown {margin: 2.5%;
+ 
+}
+#get_button {margin: 0.5%;
+
+}
+
+* {margin: 1px;
+    padding: 1px;
+    box-sizing:border box;
+    list-style-type: none;
