@@ -1,34 +1,60 @@
-#container 
- {height: 310px;
-     width: 60%;
-     background-color: rgb(5, 159, 66);
-     display: flex;
-     align-items: center;
-     flex-direction: column; 
- }
 
- *{margin: 0.5px;
-    padding: 0.5pc;
-    box-sizing:border box;
-    list-style-type: none; 
- }
-
- body {
-    align-items: center;
-    justify-content: center;     
+body{
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-image: url("../images/cocoa\ pod.jpg")
-}
-dropdown {margin: 2.5%;
- 
-}
-#get_button {margin: 0.5%;
-
-}
-
-* {margin: 1px;
-    padding: 1px;
-    box-sizing:border box;
-    list-style-type: none;
+   }
+   h1 {
+     font-family: 'Gugi', cursive;
+     font-weight: bolder;
+     text-align: center;
+     color: whitesmoke;
+     margin-bottom: 0px;
+     margin-top: 10px;
+     padding-bottom: 2px;
+     font-size: 48px;
+     text-shadow: 2px 2px 5px black;
+     
+   }
+   
+   
+   h2{
+     text-align: center;
+     font-weight: bold;
+     color:rgb(255, 255, 255);
+     font-family: 'Quattrocento', serif;
+   }
+   
+   
+   
+   @media only screen and (max-width: 600px){
+     .overlay{
+       margin-left: 1%;
+       margin-right: 2%;
+     }
+   
+   
+     h1{
+       font-size: 30px;
+     }
+     
+     #heading img{
+       float: left;
+       width: 40%;
+       height: 60%;;
+     }
+   }
+   #heading img{
+     float: left;
+     width: 10%;
+     margin-top: -10px;
+   }
+   
+   
+   .footer-copyright{
+     color: rgb(255, 255, 255);
+     font-weight: 600;
+     font-size: 18px;
+   }
+   
+   
