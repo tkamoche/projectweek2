@@ -14,6 +14,7 @@ body{
      padding-bottom: 2px;
      font-size: 48px;
      text-shadow: 2px 2px 5px black;
+     style="height: 100%;"
      
    }
    
@@ -56,5 +57,10 @@ body{
      font-weight: 600;
      font-size: 18px;
    }
-   
+   img{
+
+    width: 1283px;
+    aspect-ratio: auto 1283 / 669;
+    height: 669px;
+   }
    
