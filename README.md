@@ -21,4 +21,4 @@ tkamoch@gmail.com
 Slack me (Moringa-School) @CM Daniel Kamoche
 ## Github Pages link
 
-https://tkamoche.github.io/projectweek2/
+https://tkamoche.github.io
